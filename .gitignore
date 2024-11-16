@@ -1,0 +1,67 @@
+# ASP.NET Core
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.lock.json
+*.ide.json
+
+# Logs
+*.log
+logs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build artifacts
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.ilk
+*.idb
+*.lib
+*.log
+*.map
+*.obj
+*.o
+*.os
+*.lst
+*.sbr
+*.tmp
+*.tmp_proj
+*.log
+*.vspx
+*.pidb
+*.mdb
+*.csproj.user
+*.psess
+*.tmh
+*.tlog
+
+# Azure Functions
+local.settings.json
+
+# Other files
+*.nupkg
+*.snk
+*.swp
+.project
+.classpath
+*.pyc
+.DS_Store
