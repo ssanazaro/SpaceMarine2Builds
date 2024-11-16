@@ -3,175 +3,175 @@
 		"PerkId": 1,
 		"ClassId": 1,
 		"Level": 1,
-		"Name": "Vespasius",
-		"Description": "A powerful assault perk that increases damage output."
+		"Name": "Jump Pack",
+		"Description": "Perfect Dodge timing increases by 50%."
 	},
 	{
 		"PerkId": 2,
 		"ClassId": 1,
 		"Level": 2,
-		"Name": "Rampage",
-		"Description": "Increases speed and damage during combat."
+		"Name": "Winged Fury",
+		"Description": "Damage from Melee Attacks executed while sprinting or dashing increases by 25%."
 	},
 	{
 		"PerkId": 3,
 		"ClassId": 1,
 		"Level": 3,
-		"Name": "Overdrive",
-		"Description": "Boosts attack power after a certain number of kills."
+		"Name": "Auxiliary Arsenal",
+		"Description": "Secondary Weapon's Damage increases by 15%."
 	},
 	{
 		"PerkId": 4,
 		"ClassId": 1,
 		"Level": 4,
-		"Name": "Shatter",
-		"Description": "Increases the chance of critical hits."
+		"Name": "Perseverance",
+		"Description": "While performing Charged Attacks, you do not lose control upon taking Heavy Hits and you cannot be knocked back."
 	},
 	{
 		"PerkId": 5,
 		"ClassId": 1,
 		"Level": 5,
-		"Name": "Guardian",
-		"Description": "Provides a shield to absorb incoming damage."
+		"Name": "Squad Cohesion",
+		"Description": "Jump Pack Dash damages enemies along its trajectory."
 	},
 	{
 		"PerkId": 6,
 		"ClassId": 1,
 		"Level": 6,
-		"Name": "Stealth",
-		"Description": "Allows the player to move without being detected."
+		"Name": "Smiting Angel",
+		"Description": "Ground Pound's Damage increases by 10%."
 	},
 	{
 		"PerkId": 7,
 		"ClassId": 1,
 		"Level": 7,
-		"Name": "Lethal Precision",
-		"Description": "Increases headshot damage and accuracy."
+		"Name": "Wings of Flame",
+		"Description": "Jump Pack Dash damages enemies along its trajectory."
 	},
 	{
 		"PerkId": 8,
 		"ClassId": 1,
 		"Level": 8,
-		"Name": "Quick Reload",
-		"Description": "Reduces reload time for all weapons."
+		"Name": "Pride in Duty",
+		"Description": "After a Finisher, Ground Pound deals 25% more Damage for 10 seconds."
 	},
 	{
 		"PerkId": 9,
 		"ClassId": 1,
 		"Level": 9,
-		"Name": "Eagle Eye",
-		"Description": "Improves long-range accuracy and vision."
+		"Name": "Ample Ammunition",
+		"Description": "Any use of Jump Pack reloads the equipped Ranged Weapon."
 	},
 	{
 		"PerkId": 10,
 		"ClassId": 1,
 		"Level": 10,
-		"Name": "Infiltrator",
-		"Description": "Reduces noise while moving, improving stealth."
+		"Name": "Overcharge",
+		"Description": "Damage of Charged Attacks increases by 15%."
 	},
 	{
 		"PerkId": 11,
 		"ClassId": 1,
 		"Level": 11,
-		"Name": "Fury",
-		"Description": "Increases attack speed with melee weapons."
+		"Name": "Retribution",
+		"Description": "After you are grabbed or knocked back, you deal 15% more Melee Damage for 10 seconds."
 	},
 	{
 		"PerkId": 12,
 		"ClassId": 1,
 		"Level": 12,
-		"Name": "Tactician",
-		"Description": "Increases the effectiveness of tactical equipment."
+		"Name": "Knowledge of the Enemy",
+		"Description": "Melee Damage increases by 15% against Majoris- or Extremis-level enemies."
 	},
 	{
 		"PerkId": 13,
 		"ClassId": 1,
 		"Level": 13,
-		"Name": "Hacker",
-		"Description": "Gives the ability to hack enemy systems."
+		"Name": "Strategic Strikes",
+		"Description": "After a Ground Pound, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
 	},
 	{
 		"PerkId": 14,
 		"ClassId": 1,
 		"Level": 14,
-		"Name": "Juggernaut",
-		"Description": "Reduces damage taken from bullets and explosions."
+		"Name": "Hammer of Wrath",
+		"Description": "After a Ground Pound, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
 	},
 	{
 		"PerkId": 15,
 		"ClassId": 1,
 		"Level": 15,
-		"Name": "Medic",
-		"Description": "Increases health regeneration and healing speed."
+		"Name": "Manoeuvrability",
+		"Description": "Jump Pack recharges 20% faster."
 	},
 	{
 		"PerkId": 16,
 		"ClassId": 1,
 		"Level": 16,
-		"Name": "Blitz",
-		"Description": "Increases movement speed for a short duration after a kill."
+		"Name": "Diligence",
+		"Description": "A fully prepared Ground Pound deals 20% more Damage, but preparation time increases by 25%."
 	},
 	{
 		"PerkId": 17,
 		"ClassId": 1,
 		"Level": 17,
-		"Name": "Adrenaline",
-		"Description": "Boosts stamina and endurance during prolonged fights."
+		"Name": "Ascension",
+		"Description": "Jump Pack Leap deals Damage to all enemies in the takeoff area."
 	},
 	{
 		"PerkId": 18,
 		"ClassId": 1,
 		"Level": 18,
-		"Name": "Vigilant",
-		"Description": "Improves awareness of surrounding threats."
+		"Name": "Armour Reinforcement",
+		"Description": "Non-Finisher Gun Strikes also restore Armour."
 	},
 	{
 		"PerkId": 19,
 		"ClassId": 1,
 		"Level": 19,
-		"Name": "Berserker",
-		"Description": "Increases damage resistance and melee attack power."
+		"Name": "Consecutive Execution",
+		"Description": "Killing 15 enemies in rapid succession restores Equipment Charge by 1. Cooldown is 180 seconds."
 	},
 	{
 		"PerkId": 20,
 		"ClassId": 1,
 		"Level": 20,
-		"Name": "Night Vision",
-		"Description": "Improves vision in low-light conditions."
+		"Name": "Act of Attrition",
+		"Description": "Enemies hit by Melee Attacks take 10% more Damage for 3 seconds."
 	},
 	{
 		"PerkId": 21,
 		"ClassId": 1,
 		"Level": 21,
-		"Name": "Decoy",
-		"Description": "Creates a distraction to confuse enemies."
+		"Name": "Proven Efficiency",
+		"Description": "All Squad Members deal 50% more Gun Strike Damage."
 	},
 	{
 		"PerkId": 22,
 		"ClassId": 1,
 		"Level": 22,
-		"Name": "Survivor",
-		"Description": "Grants immunity to environmental hazards."
+		"Name": "Precision Strike",
+		"Description": "Ground Pound deals 100% more Damage, but its radius is reduced by 50%."
 	},
 	{
 		"PerkId": 23,
 		"ClassId": 1,
 		"Level": 23,
-		"Name": "Tracker",
-		"Description": "Highlights enemy positions on the map."
+		"Name": "Zealous Blow",
+		"Description": "A Ground Pound kill restores Jump Pack's Charge by 10%."
 	},
 	{
 		"PerkId": 24,
 		"ClassId": 1,
 		"Level": 24,
-		"Name": "Scavenger",
-		"Description": "Increases item collection speed and item drop rate."
+		"Name": "Aerial Grace",
+		"Description": "After a perfectly timed Dodge using a Jump Pack Dash, you deal 25% more Damage for 5 seconds."
 	},
 	{
 		"PerkId": 25,
 		"ClassId": 1,
 		"Level": 25,
-		"Name": "Phantom",
-		"Description": "Grants invisibility for a limited time."
+		"Name": "Commitment",
+		"Description": "A perfectly timed Dodge using a Jump Pack Dash restores Jump Pack's Ability Charge."
 	}
 ]
