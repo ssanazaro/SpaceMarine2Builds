@@ -1,0 +1,32 @@
+[
+	{
+		"ClassId": 1,
+		"Name": "Vespasius",
+		"Role": "Assault"
+	},
+	{
+		"ClassId": 2,
+		"Name": "Quartus",
+		"Role": "Bulwark"
+	},
+	{
+		"ClassId": 3,
+		"Name": "Straban",
+		"Role": "Heavy"
+	},
+	{
+		"ClassId": 4,
+		"Name": "Scipio",
+		"Role": "Sniper"
+	},
+	{
+		"ClassId": 5,
+		"Name": "Valius",
+		"Role": "Tactical"
+	},
+	{
+		"ClassId": 6,
+		"Name": "Decimus",
+		"Role": "Vanguard"
+	}
+]

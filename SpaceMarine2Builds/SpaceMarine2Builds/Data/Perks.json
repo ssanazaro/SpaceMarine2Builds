@@ -1,0 +1,177 @@
+[
+	{
+		"PerkId": 1,
+		"ClassId": 1,
+		"Level": 1,
+		"Name": "Vespasius",
+		"Description": "A powerful assault perk that increases damage output."
+	},
+	{
+		"PerkId": 2,
+		"ClassId": 1,
+		"Level": 2,
+		"Name": "Rampage",
+		"Description": "Increases speed and damage during combat."
+	},
+	{
+		"PerkId": 3,
+		"ClassId": 1,
+		"Level": 3,
+		"Name": "Overdrive",
+		"Description": "Boosts attack power after a certain number of kills."
+	},
+	{
+		"PerkId": 4,
+		"ClassId": 1,
+		"Level": 4,
+		"Name": "Shatter",
+		"Description": "Increases the chance of critical hits."
+	},
+	{
+		"PerkId": 5,
+		"ClassId": 1,
+		"Level": 5,
+		"Name": "Guardian",
+		"Description": "Provides a shield to absorb incoming damage."
+	},
+	{
+		"PerkId": 6,
+		"ClassId": 1,
+		"Level": 6,
+		"Name": "Stealth",
+		"Description": "Allows the player to move without being detected."
+	},
+	{
+		"PerkId": 7,
+		"ClassId": 1,
+		"Level": 7,
+		"Name": "Lethal Precision",
+		"Description": "Increases headshot damage and accuracy."
+	},
+	{
+		"PerkId": 8,
+		"ClassId": 1,
+		"Level": 8,
+		"Name": "Quick Reload",
+		"Description": "Reduces reload time for all weapons."
+	},
+	{
+		"PerkId": 9,
+		"ClassId": 1,
+		"Level": 9,
+		"Name": "Eagle Eye",
+		"Description": "Improves long-range accuracy and vision."
+	},
+	{
+		"PerkId": 10,
+		"ClassId": 1,
+		"Level": 10,
+		"Name": "Infiltrator",
+		"Description": "Reduces noise while moving, improving stealth."
+	},
+	{
+		"PerkId": 11,
+		"ClassId": 1,
+		"Level": 11,
+		"Name": "Fury",
+		"Description": "Increases attack speed with melee weapons."
+	},
+	{
+		"PerkId": 12,
+		"ClassId": 1,
+		"Level": 12,
+		"Name": "Tactician",
+		"Description": "Increases the effectiveness of tactical equipment."
+	},
+	{
+		"PerkId": 13,
+		"ClassId": 1,
+		"Level": 13,
+		"Name": "Hacker",
+		"Description": "Gives the ability to hack enemy systems."
+	},
+	{
+		"PerkId": 14,
+		"ClassId": 1,
+		"Level": 14,
+		"Name": "Juggernaut",
+		"Description": "Reduces damage taken from bullets and explosions."
+	},
+	{
+		"PerkId": 15,
+		"ClassId": 1,
+		"Level": 15,
+		"Name": "Medic",
+		"Description": "Increases health regeneration and healing speed."
+	},
+	{
+		"PerkId": 16,
+		"ClassId": 1,
+		"Level": 16,
+		"Name": "Blitz",
+		"Description": "Increases movement speed for a short duration after a kill."
+	},
+	{
+		"PerkId": 17,
+		"ClassId": 1,
+		"Level": 17,
+		"Name": "Adrenaline",
+		"Description": "Boosts stamina and endurance during prolonged fights."
+	},
+	{
+		"PerkId": 18,
+		"ClassId": 1,
+		"Level": 18,
+		"Name": "Vigilant",
+		"Description": "Improves awareness of surrounding threats."
+	},
+	{
+		"PerkId": 19,
+		"ClassId": 1,
+		"Level": 19,
+		"Name": "Berserker",
+		"Description": "Increases damage resistance and melee attack power."
+	},
+	{
+		"PerkId": 20,
+		"ClassId": 1,
+		"Level": 20,
+		"Name": "Night Vision",
+		"Description": "Improves vision in low-light conditions."
+	},
+	{
+		"PerkId": 21,
+		"ClassId": 1,
+		"Level": 21,
+		"Name": "Decoy",
+		"Description": "Creates a distraction to confuse enemies."
+	},
+	{
+		"PerkId": 22,
+		"ClassId": 1,
+		"Level": 22,
+		"Name": "Survivor",
+		"Description": "Grants immunity to environmental hazards."
+	},
+	{
+		"PerkId": 23,
+		"ClassId": 1,
+		"Level": 23,
+		"Name": "Tracker",
+		"Description": "Highlights enemy positions on the map."
+	},
+	{
+		"PerkId": 24,
+		"ClassId": 1,
+		"Level": 24,
+		"Name": "Scavenger",
+		"Description": "Increases item collection speed and item drop rate."
+	},
+	{
+		"PerkId": 25,
+		"ClassId": 1,
+		"Level": 25,
+		"Name": "Phantom",
+		"Description": "Grants invisibility for a limited time."
+	}
+]
