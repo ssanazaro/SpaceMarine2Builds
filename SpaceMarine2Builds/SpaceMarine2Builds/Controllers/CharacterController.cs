@@ -6,11 +6,11 @@ namespace SpaceMarine2Builds.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
-	public class ClassController : Controller
+	public class CharacterController : Controller
 	{
 		private readonly IFileStorageAccess _fileStorageAccess;
 
-		public ClassController(IFileStorageAccess fileStorageAccess)
+		public CharacterController(IFileStorageAccess fileStorageAccess)
 		{
 			_fileStorageAccess = fileStorageAccess;
 		}
