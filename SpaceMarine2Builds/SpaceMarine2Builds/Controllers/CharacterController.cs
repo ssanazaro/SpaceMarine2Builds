@@ -16,11 +16,12 @@ namespace SpaceMarine2Builds.Controllers
 		}
 
 		[HttpGet("/GetAllSpaceMarines")]
-		public List<SpaceMarine> GetAllSpaceMarines()
+		public IActionResult GetAllSpaceMarines()
 		{
 			var response = _fileStorageAccess.GetAllSpaceMarines();
-			return response;
+			return Ok(response); // Ensuring a proper JSON response
 		}
+
 
 		[HttpGet("/GetPerksByClassId/{classId}")]
 		public List<Perk> GetPerksByClassId(int classId)

@@ -23,7 +23,7 @@
         try
         {
             // Calling the specific endpoint you mentioned
-            spaceMarines = await Http.GetFromJsonAsync<List<SpaceMarine>>("GetAllSpaceMarines");
+            spaceMarines = await Http.GetFromJsonAsync<List<SpaceMarine>>("https://localhost:7256/GetAllSpaceMarines");
         }
         catch (Exception ex)
         {
