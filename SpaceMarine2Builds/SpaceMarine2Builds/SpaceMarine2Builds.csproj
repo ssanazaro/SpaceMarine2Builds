@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <Compile Remove="BLL\**" />
+    <Content Remove="BLL\**" />
+    <EmbeddedResource Remove="BLL\**" />
+    <None Remove="BLL\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BLL\" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
 </Project>
