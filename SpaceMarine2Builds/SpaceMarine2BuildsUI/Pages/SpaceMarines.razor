@@ -1,0 +1,40 @@
+﻿@page "/spacemarines"
+
+<h3>SpaceMarines</h3>
+
+<button @onclick="CallApi">Get Space Marines</button>
+
+<ul>
+    @foreach (var marine in spaceMarines)
+    {
+        <li>@marine.Name</li>
+    }
+</ul>
+
+@code {
+    private List<SpaceMarine> spaceMarines = new List<SpaceMarine>();
+
+    // Injecting HttpClient to make HTTP requests
+    [Inject]
+    private HttpClient Http { get; set; }
+
+    private async Task CallApi()
+    {
+        try
+        {
+            // Calling the specific endpoint you mentioned
+            spaceMarines = await Http.GetFromJsonAsync<List<SpaceMarine>>("GetAllSpaceMarines");
+        }
+        catch (Exception ex)
+        {
+            // Handle any errors here
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    // Define the SpaceMarine class or use your actual model
+    public class SpaceMarine
+    {
+        public string Name { get; set; }
+    }
+}
