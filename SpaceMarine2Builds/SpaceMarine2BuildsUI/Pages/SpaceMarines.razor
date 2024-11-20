@@ -11,15 +11,49 @@
     {
         @foreach (var marine in spaceMarines)
         {
-            <div class="spacemarine-box">
+            <div class="spacemarine-box" @onclick="() => SelectMarine(marine)">
                 @marine.Role
             </div>
         }
     }
 </div>
 
+@if (selectedMarine != null)
+{
+    <div class="perk-layout">
+        @if (spaceMarinePerks == null)
+        {
+            <p>Loading perks...</p>
+        }
+        else if (!spaceMarinePerks.Any())
+        {
+            <p>No perks available for this class.</p>
+        }
+        else
+        {
+            <!-- First box at the top -->
+            <div class="perk-box perk-first">
+                @spaceMarinePerks.First().Name
+            </div>
+
+            <!-- Remaining boxes in 3 rows with 8 columns -->
+            <div class="perk-grid">
+                @foreach (var perk in spaceMarinePerks.Skip(1))
+                {
+                    <div class="perk-box">
+                        @perk.Name,
+                        @perk.Description
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}
+
 @code {
     private List<SpaceMarine> spaceMarines = new List<SpaceMarine>();
+    private SpaceMarine? selectedMarine; // Store the currently selected marine
+    private List<Perk> spaceMarinePerks; // Store the perks for the selected marine
 
     [Inject]
     private HttpClient Http { get; set; }
@@ -41,10 +75,36 @@
         }
     }
 
+    private async Task SelectMarine(SpaceMarine spaceMarine)
+    {
+        selectedMarine = spaceMarine; // Update the selected marine
+        spaceMarinePerks = null; // Clear previous perks while loading new ones
+
+        try
+        {
+            // Call the API to get perks for the selected marine's class
+            spaceMarinePerks = await Http.GetFromJsonAsync<List<Perk>>($"https://localhost:7256/GetPerksByClassId/{spaceMarine.ClassId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching perks: {ex.Message}");
+            spaceMarinePerks = new List<Perk>(); // Fallback to an empty list if the API fails
+        }
+    }
+
     public class SpaceMarine
     {
         public int ClassId { get; set; }
         public string Name { get; set; }
         public string Role { get; set; }
+    }
+
+    public class Perk
+    {
+        public int PerkId { get; set; }
+        public int ClassId { get; set; }
+        public int Level { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

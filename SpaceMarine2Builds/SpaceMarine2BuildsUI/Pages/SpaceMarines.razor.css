@@ -1,21 +1,62 @@
 ﻿.marine-container {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
-	margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .spacemarine-box {
-	width: 150px;
-	height: 150px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #007BFF;
-	color: white;
-	font-weight: bold;
-	border: 2px solid #0056b3;
-	border-radius: 8px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #0056b3;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.perk-layout {
+    margin-top: 30px;
+}
+
+/* First perk box at the top */
+.perk-first {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    background-color: #FF5733;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #C70039;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Grid layout for remaining perk boxes */
+.perk-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.perk-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28A745;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #1C7430;
+    border-radius: 8px;
+    text-align: center;
 }

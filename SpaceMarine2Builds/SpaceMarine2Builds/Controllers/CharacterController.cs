@@ -24,10 +24,10 @@ namespace SpaceMarine2Builds.Controllers
 
 
 		[HttpGet("/GetPerksByClassId/{classId}")]
-		public List<Perk> GetPerksByClassId(int classId)
+		public IActionResult GetPerksByClassId(int classId)
 		{
 			var response = _fileStorageAccess.GetPerksByClassId();
-			return response;
+			return Ok(response);
 		}
 	}
 }
