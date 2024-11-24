@@ -32,7 +32,6 @@
     margin: 0 auto;
     background-color: #FF5733;
     color: white;
-    font-weight: bold;
     border: 2px solid #C70039;
     border-radius: 8px;
     text-align: center;
@@ -55,8 +54,36 @@
     align-items: center;
     background-color: #28A745;
     color: white;
-    font-weight: bold;
     border: 2px solid #1C7430;
     border-radius: 8px;
     text-align: center;
+    overflow: hidden; /* Prevents overflow if text is too large */
+    word-wrap: break-word; /* Breaks long words */
+    padding: 10px; /* Adds some spacing inside the box */
+    box-sizing: border-box; /* Ensures padding doesn't exceed box size */
+    font-size: calc(8px + 0.3vw); /* Dynamically scales text size */
+    line-height: 1.2; /* Maintains consistent line spacing */
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for highlighting */
 }
+
+    .perk-box.highlight {
+        background-color: #FFC107; /* Highlighted background color */
+        border-color: #FF8C00; /* Highlighted border color */
+        color: black; /* Change text color for contrast */
+    }
+
+<div class="PerkBox" >
+<h3 > @PerkBox.Name</h3 >
+<p > @PerkBox.Description</p >
+<p > Level: @PerkBox.Level</p >
+<p > Type: @PerkBox.Type</p >
+</div >
+
+/*@code {
+    [Parameter] public PerkBox perkBox
+
+{ get; set; }
+}
+*/
+

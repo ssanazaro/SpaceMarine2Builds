@@ -1,0 +1,20 @@
+﻿<div class="perk-box">
+    <h3>@Name</h3>
+    <p>@Description</p>
+    <p>Type: @Type</p>
+    <p>Level: @Level</p>
+</div>
+
+@code {
+    [Parameter]
+    public string Name { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Description { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Type { get; set; } = string.Empty;
+
+    [Parameter]
+    public int Level { get; set; }
+}

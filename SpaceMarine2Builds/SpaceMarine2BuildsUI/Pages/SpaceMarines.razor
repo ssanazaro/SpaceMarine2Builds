@@ -1,4 +1,5 @@
-﻿@page "/spacemarines"
+﻿@using SpaceMarine2BuildsUI.Components  <!-- Replace YourApp with your app's actual namespace -->
+@page "/spacemarines"
 
 <h3>Space Marines</h3>
 
@@ -11,14 +12,13 @@
     {
         @foreach (var marine in spaceMarines)
         {
-            <div class="spacemarine-box" @onclick="() => SelectMarine(marine)">
-                @marine.Role
-            </div>
+            <!-- Ensure the name is passed correctly -->
+            <SpaceMarineBox Name="@marine.Role" />
         }
     }
 </div>
 
-@if (selectedMarine != null)
+@* @if (selectedMarine != null)
 {
     <div class="perk-layout">
         @if (spaceMarinePerks == null)
@@ -48,12 +48,16 @@
             </div>
         }
     </div>
-}
+} *@
+
+
+
 
 @code {
     private List<SpaceMarine> spaceMarines = new List<SpaceMarine>();
     private SpaceMarine? selectedMarine; // Store the currently selected marine
-    private List<Perk> spaceMarinePerks; // Store the perks for the selected marine
+    // private List<Perk> spaceMarinePerks; // Store the perks for the selected marine
+    // private Perk? selectedPerk; // Store the currently selected perk
 
     [Inject]
     private HttpClient Http { get; set; }
@@ -68,29 +72,39 @@
         try
         {
             spaceMarines = await Http.GetFromJsonAsync<List<SpaceMarine>>("https://localhost:7256/GetAllSpaceMarines");
+            Console.WriteLine($"Loaded {spaceMarines.Count} space marines");
+            StateHasChanged(); // Manually trigger UI update
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
+            spaceMarines = new List<SpaceMarine>(); // Ensure it's always initialized
         }
     }
+
 
     private async Task SelectMarine(SpaceMarine spaceMarine)
     {
         selectedMarine = spaceMarine; // Update the selected marine
-        spaceMarinePerks = null; // Clear previous perks while loading new ones
+        // spaceMarinePerks = null; // Clear previous perks while loading new ones
+        // selectedPerk = null; // Reset selected perk
 
         try
         {
             // Call the API to get perks for the selected marine's class
-            spaceMarinePerks = await Http.GetFromJsonAsync<List<Perk>>($"https://localhost:7256/GetPerksByClassId/{spaceMarine.ClassId}");
+            //spaceMarinePerks = await Http.GetFromJsonAsync<List<Perk>>($"https://localhost:7256/GetPerksByClassId/{spaceMarine.ClassId}");
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error fetching perks: {ex.Message}");
-            spaceMarinePerks = new List<Perk>(); // Fallback to an empty list if the API fails
+            //spaceMarinePerks = new List<Perk>(); // Fallback to an empty list if the API fails
         }
     }
+
+    // private void SelectPerk(Perk perk)
+    // {
+    //     selectedPerk = perk; // Update the selected perk
+    // }
 
     public class SpaceMarine
     {
@@ -99,12 +113,12 @@
         public string Role { get; set; }
     }
 
-    public class Perk
-    {
-        public int PerkId { get; set; }
-        public int ClassId { get; set; }
-        public int Level { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-    }
+    // public class Perk
+    // {
+    //     public int PerkId { get; set; }
+    //     public int ClassId { get; set; }
+    //     public int Level { get; set; }
+    //     public string Name { get; set; }
+    //     public string Description { get; set; }
+    // }
 }
