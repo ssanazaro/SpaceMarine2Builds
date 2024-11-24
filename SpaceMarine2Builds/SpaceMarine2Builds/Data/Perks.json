@@ -2,6 +2,7 @@
 	{
 		"PerkId": 1,
 		"ClassId": 1,
+		"Type":  "Starting",
 		"Level": 1,
 		"Name": "Jump Pack",
 		"Description": "Perfect Dodge timing increases by 50%."
@@ -9,6 +10,7 @@
 	{
 		"PerkId": 2,
 		"ClassId": 1,
+		"Type": "Core 1",
 		"Level": 2,
 		"Name": "Winged Fury",
 		"Description": "Damage from Melee Attacks executed while sprinting or dashing increases by 25%."
@@ -16,6 +18,7 @@
 	{
 		"PerkId": 3,
 		"ClassId": 1,
+		"Type": "Core 2",
 		"Level": 3,
 		"Name": "Auxiliary Arsenal",
 		"Description": "Secondary Weapon's Damage increases by 15%."
@@ -23,6 +26,7 @@
 	{
 		"PerkId": 4,
 		"ClassId": 1,
+		"Type": "Core 3",
 		"Level": 4,
 		"Name": "Perseverance",
 		"Description": "While performing Charged Attacks, you do not lose control upon taking Heavy Hits and you cannot be knocked back."
@@ -30,6 +34,7 @@
 	{
 		"PerkId": 5,
 		"ClassId": 1,
+		"Type": "Team",
 		"Level": 5,
 		"Name": "Squad Cohesion",
 		"Description": "Jump Pack Dash damages enemies along its trajectory."
@@ -37,6 +42,7 @@
 	{
 		"PerkId": 6,
 		"ClassId": 1,
+		"Type": "Gear 1",
 		"Level": 6,
 		"Name": "Smiting Angel",
 		"Description": "Ground Pound's Damage increases by 10%."
@@ -44,6 +50,7 @@
 	{
 		"PerkId": 7,
 		"ClassId": 1,
+		"Type": "Gear 2",
 		"Level": 7,
 		"Name": "Wings of Flame",
 		"Description": "Jump Pack Dash damages enemies along its trajectory."
@@ -51,6 +58,7 @@
 	{
 		"PerkId": 8,
 		"ClassId": 1,
+		"Type": "Gear 3",
 		"Level": 8,
 		"Name": "Pride in Duty",
 		"Description": "After a Finisher, Ground Pound deals 25% more Damage for 10 seconds."
@@ -58,6 +66,7 @@
 	{
 		"PerkId": 9,
 		"ClassId": 1,
+		"Type": "Signature",
 		"Level": 9,
 		"Name": "Ample Ammunition",
 		"Description": "Any use of Jump Pack reloads the equipped Ranged Weapon."
@@ -65,6 +74,7 @@
 	{
 		"PerkId": 10,
 		"ClassId": 1,
+		"Type": "Core 1",
 		"Level": 10,
 		"Name": "Overcharge",
 		"Description": "Damage of Charged Attacks increases by 15%."
@@ -72,6 +82,7 @@
 	{
 		"PerkId": 11,
 		"ClassId": 1,
+		"Type": "Core 2",
 		"Level": 11,
 		"Name": "Retribution",
 		"Description": "After you are grabbed or knocked back, you deal 15% more Melee Damage for 10 seconds."
@@ -79,6 +90,7 @@
 	{
 		"PerkId": 12,
 		"ClassId": 1,
+		"Type": "Core 3",
 		"Level": 12,
 		"Name": "Knowledge of the Enemy",
 		"Description": "Melee Damage increases by 15% against Majoris- or Extremis-level enemies."
@@ -86,6 +98,7 @@
 	{
 		"PerkId": 13,
 		"ClassId": 1,
+		"Type": "Team",
 		"Level": 13,
 		"Name": "Strategic Strikes",
 		"Description": "After a Ground Pound, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
@@ -93,6 +106,7 @@
 	{
 		"PerkId": 14,
 		"ClassId": 1,
+		"Type": "Gear 1",
 		"Level": 14,
 		"Name": "Hammer of Wrath",
 		"Description": "After a Ground Pound, you do not lose control upon taking Heavy Hits and you cannot be knocked back for 10 seconds."
@@ -100,6 +114,7 @@
 	{
 		"PerkId": 15,
 		"ClassId": 1,
+		"Type": "Gear 2",
 		"Level": 15,
 		"Name": "Manoeuvrability",
 		"Description": "Jump Pack recharges 20% faster."
@@ -107,6 +122,7 @@
 	{
 		"PerkId": 16,
 		"ClassId": 1,
+		"Type": "Gear 3",
 		"Level": 16,
 		"Name": "Diligence",
 		"Description": "A fully prepared Ground Pound deals 20% more Damage, but preparation time increases by 25%."
@@ -114,6 +130,7 @@
 	{
 		"PerkId": 17,
 		"ClassId": 1,
+		"Type": "Signature",
 		"Level": 17,
 		"Name": "Ascension",
 		"Description": "Jump Pack Leap deals Damage to all enemies in the takeoff area."
@@ -121,6 +138,7 @@
 	{
 		"PerkId": 18,
 		"ClassId": 1,
+		"Type": "Core 1",
 		"Level": 18,
 		"Name": "Armour Reinforcement",
 		"Description": "Non-Finisher Gun Strikes also restore Armour."
@@ -128,6 +146,7 @@
 	{
 		"PerkId": 19,
 		"ClassId": 1,
+		"Type": "Core 2",
 		"Level": 19,
 		"Name": "Consecutive Execution",
 		"Description": "Killing 15 enemies in rapid succession restores Equipment Charge by 1. Cooldown is 180 seconds."
@@ -135,6 +154,7 @@
 	{
 		"PerkId": 20,
 		"ClassId": 1,
+		"Type": "Core 3",
 		"Level": 20,
 		"Name": "Act of Attrition",
 		"Description": "Enemies hit by Melee Attacks take 10% more Damage for 3 seconds."
@@ -142,6 +162,7 @@
 	{
 		"PerkId": 21,
 		"ClassId": 1,
+		"Type": "Team",
 		"Level": 21,
 		"Name": "Proven Efficiency",
 		"Description": "All Squad Members deal 50% more Gun Strike Damage."
@@ -149,6 +170,7 @@
 	{
 		"PerkId": 22,
 		"ClassId": 1,
+		"Type": "Gear 1",
 		"Level": 22,
 		"Name": "Precision Strike",
 		"Description": "Ground Pound deals 100% more Damage, but its radius is reduced by 50%."
@@ -156,6 +178,7 @@
 	{
 		"PerkId": 23,
 		"ClassId": 1,
+		"Type": "Gear 2",
 		"Level": 23,
 		"Name": "Zealous Blow",
 		"Description": "A Ground Pound kill restores Jump Pack's Charge by 10%."
@@ -163,6 +186,7 @@
 	{
 		"PerkId": 24,
 		"ClassId": 1,
+		"Type": "Gear 3",
 		"Level": 24,
 		"Name": "Aerial Grace",
 		"Description": "After a perfectly timed Dodge using a Jump Pack Dash, you deal 25% more Damage for 5 seconds."
@@ -170,6 +194,7 @@
 	{
 		"PerkId": 25,
 		"ClassId": 1,
+		"Type": "Signature",
 		"Level": 25,
 		"Name": "Commitment",
 		"Description": "A perfectly timed Dodge using a Jump Pack Dash restores Jump Pack's Ability Charge."
